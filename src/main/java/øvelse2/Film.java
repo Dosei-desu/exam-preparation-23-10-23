@@ -1,3 +1,5 @@
+package øvelse2;
+
 import java.time.LocalDateTime;
 
 public class Film {
@@ -27,6 +29,6 @@ public class Film {
         }
         return "Navn: \""+filmtitel+"\"\n"+
                 "Udgivelsesår: "+udgivelsesår+"\n"+
-                "Producer: "+producer.getNavn();
+                "øvelse2.Producer: "+producer.getNavn();
     }
 }

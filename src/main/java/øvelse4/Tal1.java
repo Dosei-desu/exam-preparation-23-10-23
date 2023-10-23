@@ -1,6 +1,6 @@
 package øvelse4;
 
-public class Tal {
+public class Tal1 {
     private int[] tilfældigeTal = new int[10];
 
     public int fåTal(){

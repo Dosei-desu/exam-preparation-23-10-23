@@ -1,3 +1,5 @@
+package øvelse1;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -50,6 +52,6 @@ public class Text {
             }
         }
 
-        return text;
+        return text.trim();
     }
 }
