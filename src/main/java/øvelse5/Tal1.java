@@ -1,4 +1,4 @@
-package øvelse4;
+package øvelse5;
 
 public class Tal1 {
     private int[] tilfældigeTal = new int[10];

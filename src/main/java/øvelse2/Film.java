@@ -14,8 +14,7 @@ public class Film {
 
     public Film (String filmtitel){
         this.filmtitel = filmtitel;
-
-        this.udgivelsesår = LocalDateTime.now().getYear();
+        this.udgivelsesår = LocalDateTime.now().getYear(); //Calendar.getInstance().getWeekYear()
     }
 
     public void tilføjProducer(Producer producer){
@@ -25,7 +24,7 @@ public class Film {
     public String toString(){
         if(producer == null){
             return "Navn: \""+filmtitel+"\"\n"+
-                    "Udgivelsesår: "+udgivelsesår;
+                   "Udgivelsesår: "+udgivelsesår;
         }
         return "Navn: \""+filmtitel+"\"\n"+
                 "Udgivelsesår: "+udgivelsesår+"\n"+

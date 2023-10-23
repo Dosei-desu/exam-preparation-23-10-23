@@ -1,4 +1,4 @@
-package øvelse5;
+package øvelse6;
 
 import java.util.ArrayList;
 import java.util.Arrays;

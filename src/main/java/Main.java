@@ -2,8 +2,10 @@ import øvelse1.Text;
 import øvelse2.Film;
 import øvelse2.Producer;
 import øvelse3.Raflebæger;
-import øvelse4.Tal1;
-import øvelse5.Tal2;
+import øvelse4.Butik;
+import øvelse4.Cykel;
+import øvelse5.Tal1;
+import øvelse6.Tal2;
 
 public class Main {
 
@@ -43,6 +45,20 @@ public class Main {
         System.out.println(raflebæger.seTerninger());
 
         //Øvelse 4 --- Tal 1
+        System.out.println("\n----------------------Cykel Butik----------------------");
+
+        Butik butik = new Butik();
+        Cykel cykel1 = new Cykel("Hanada","Blå",4200);
+        Cykel cykel2 = new Cykel("Johnna","Blau",7150);
+        Cykel cykel3 = new Cykel("CrapBike","Rusten",800);
+        Cykel cykel4 = new Cykel("MountainZ","Grå",2371);
+        butik.tilføj(cykel1);
+        butik.tilføj(cykel2);
+        butik.tilføj(cykel3);
+        butik.tilføj(cykel4);
+        System.out.println("Total sum af cykel priser: "+butik.samletLagerBeholding()+" kr.");
+
+        //Øvelse 5 --- Tal 1
         System.out.println("\n----------------------Tal 1----------------------");
 
         Tal1 tal1 = new Tal1();
@@ -52,7 +68,7 @@ public class Main {
         tal1.lavMangeTal();
         System.out.println(tal1.getTilfældigeTal());
 
-        //Øvelse 5 --- Tal 2
+        //Øvelse 6 --- Tal 2
         System.out.println("\n----------------------Tal 2----------------------");
 
         Tal2 tal2 = new Tal2();
